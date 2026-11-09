@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-labelledby="title desc">
+<title id="title">Stylized eagle head</title>
+<desc id="desc">An original navy and gold stylized eagle head emblem.</desc>
+<defs>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe49a"/><stop offset="1" stop-color="#c58a22"/></linearGradient>
+  <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#244d79"/><stop offset="1" stop-color="#092744"/></linearGradient>
+</defs>
+<path d="M70 220 20 85l175 73 55-112 64 107 142-95-42 145 164-20-127 105 107 93-178-27-89 66-45-83-125 47 60-111z" fill="url(#navy)" stroke="#08223d" stroke-width="12" stroke-linejoin="round"/>
+<path d="M198 156c76-54 183-42 245 21-38 2-72 16-94 42 53-8 101 5 138 36-68-7-115 11-151 53-48 56-126 65-184 22 51 0 85-21 105-51-51 17-102 9-145-21 57 4 101-15 131-48-36 8-70-2-101-28z" fill="url(#gold)" stroke="#f6d88b" stroke-width="7" stroke-linejoin="round"/>
+<path d="M332 197c33-20 75-23 113-10l-45 29 51 12-76 18z" fill="#fff8e8"/>
+<circle cx="375" cy="198" r="12" fill="#092744"/>
+<circle cx="379" cy="194" r="4" fill="#fff"/>
+<path d="M421 245 555 261l-96 39-61-18z" fill="#d49a32" stroke="#8b5a12" stroke-width="8" stroke-linejoin="round"/>
+<path d="M269 285c38 19 82 18 117-3-23 42-67 60-111 44z" fill="#fff1cf" opacity=".9"/>
+<path d="M105 218 52 137l113 46M150 300l-71 49 113-14" fill="none" stroke="#6f9bc1" stroke-width="12" stroke-linecap="round"/>
+</svg>

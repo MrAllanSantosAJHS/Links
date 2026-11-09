@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Hyperlinks Learning Hub</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <img src="assets/eagle.svg" alt="Stylized eagle emblem">
+    <div><h1>Hyperlinks Learning Hub</h1><p>Click, connect, and explore the web!</p></div>
+  </div>
+  <nav aria-label="Main navigation">
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <h2>Welcome! Let's make connections.</h2>
+    <p class="lead">A hyperlink connects one web page or resource to another. Click around this mini-site to see how links work in HTML.</p>
+    <a class="button gold" href="about.html">Learn About Hyperlinks →</a>
+    <a class="button outline" href="contact.html">Try the Link Demos</a>
+  </section>
+
+  <section class="panel">
+    <h2>1. Visit an external website</h2>
+    <p>An external link takes visitors to a different website. This example opens the W3Schools HTML tutorial in a new tab.</p>
+    <a class="button" href="https://www.w3schools.com/html/html_links.asp" target="_blank" rel="noopener noreferrer" title="Open the W3Schools HTML Links tutorial in a new tab">Visit W3Schools ↗</a>
+    <p class="small">Hover over the button to see the <code>title</code> tooltip.</p>
+  </section>
+
+  <section class="panel">
+    <h2>2. Click the eagle image</h2>
+    <p>The image is inside an anchor element. Clicking it opens the Ateneo website.</p>
+    <a class="eagle-link" href="https://www.ateneo.edu/" target="_blank" rel="noopener noreferrer" title="Visit the official Ateneo de Manila University website">
+      <img src="assets/eagle.svg" alt="Stylized navy and gold eagle">
+      <span><strong>Explore Ateneo.edu</strong><br><span class="small">Click anywhere in this image-and-text link.</span></span>
+    </a>
+    <p class="small">HTML pattern: <code>&lt;a href="https://www.ateneo.edu/"&gt;&lt;img src="assets/eagle.svg" alt="Eagle"&gt;&lt;/a&gt;</code></p>
+  </section>
+
+  <section class="panel">
+    <h2>3. Explore the three pages</h2>
+    <div class="demo-grid">
+      <div class="demo"><h3>Home</h3><p>See external links and a clickable image.</p></div>
+      <div class="demo"><h3>About Us</h3><p>Learn about anchor tags, href, and link types.</p><a href="about.html">Go to About Us →</a></div>
+      <div class="demo"><h3>Contact Us</h3><p>Try email and the four target values.</p><a href="contact.html">Go to Contact Us →</a></div>
+    </div>
+  </section>
+</main>
+<footer>Hyperlinks Learning Hub · A simple HTML learning website</footer>
+</body>
+</html>

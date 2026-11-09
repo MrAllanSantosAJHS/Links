@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Hyperlinks Learning Hub</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="brand"><img src="assets/eagle.svg" alt="Stylized eagle emblem"><div><h1>Hyperlinks Learning Hub</h1><p>Test the links and see what happens.</p></div></div>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a><a href="about.html">About Us</a><a href="contact.html" aria-current="page">Contact Us</a>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <h2>Contact Us & Link Demonstrations</h2>
+    <p class="lead">Use the buttons below to explore email links and the four values of the <code>target</code> attribute.</p>
+    <a class="button gold" href="mailto:hello@example.com?subject=Question%20about%20HTML%20Hyperlinks" title="Compose an email using your default mail application">✉ Email Us</a>
+    <p class="small">This sample uses <code>hello@example.com</code>. Replace it with your teacher's or school's actual email address if needed.</p>
+  </section>
+
+  <section class="panel">
+    <h2>The four target attribute values</h2>
+    <p>The <code>target</code> attribute tells the browser where to open the linked document.</p>
+    <div class="demo-grid">
+      <div class="demo">
+        <h3>1. _self</h3>
+        <p>Opens the linked page in the same browsing context. This is the default behavior.</p>
+        <a class="button" href="https://www.w3schools.com/html/" target="_self">Try target="_self"</a>
+        <p class="small">This tab will navigate to W3Schools.</p>
+      </div>
+      <div class="demo">
+        <h3>2. _blank</h3>
+        <p>Opens the linked page in a new tab or window.</p>
+        <a class="button" href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer">Try target="_blank"</a>
+        <p class="small">Your current page should remain open.</p>
+      </div>
+      <div class="demo">
+        <h3>3. _parent</h3>
+        <p>Opens the linked page in the parent browsing context (the frame containing the current page).</p>
+        <a class="button" href="https://www.w3schools.com/html/" target="_parent">Try target="_parent"</a>
+        <p class="small">When this page is not inside a frame, the parent is effectively this tab.</p>
+      </div>
+      <div class="demo">
+        <h3>4. _top</h3>
+        <p>Opens the linked page in the full, top-level browsing context, replacing any frames.</p>
+        <a class="button" href="https://www.w3schools.com/html/" target="_top">Try target="_top"</a>
+        <p class="small">When this page is not inside a frame, it behaves like same-tab navigation.</p>
+      </div>
+    </div>
+    <div class="tip" style="margin-top:18px"><strong>Important classroom note:</strong> This website is not embedded inside frames. Therefore, <code>_parent</code> and <code>_top</code> may look the same as <code>_self</code> when you click them here. Their difference becomes visible when a page is inside nested frames or iframes.</div>
+  </section>
+
+  <section class="panel">
+    <h2>Quick link challenge</h2>
+    <ol>
+      <li>Which target value opens a new tab?</li>
+      <li>Which target value opens in the same browsing context?</li>
+      <li>What does <code>mailto:</code> do?</li>
+      <li>What extra information can the <code>title</code> attribute show?</li>
+    </ol>
+    <a class="button outline" href="about.html">Review the hyperlink concepts</a>
+    <a class="button outline" href="index.html">Back to Home</a>
+  </section>
+</main>
+<footer>Hyperlinks Learning Hub · Contact Us</footer>
+</body>
+</html>

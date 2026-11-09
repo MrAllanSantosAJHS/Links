@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Hyperlinks Learning Hub</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="brand"><img src="assets/eagle.svg" alt="Stylized eagle emblem"><div><h1>Hyperlinks Learning Hub</h1><p>Understand the links behind the web.</p></div></div>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a><a href="about.html" aria-current="page">About Us</a><a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <h2>About Hyperlinks</h2>
+    <p class="lead">A hyperlink (or link) is a clickable text, image, or element that takes a user to another location.</p>
+    <p>In HTML, links are created with the <code>&lt;a&gt;</code> (anchor) element. The <code>href</code> attribute tells the browser where the link should go.</p>
+    <p><code>&lt;a href="https://www.w3schools.com/"&gt;Visit W3Schools&lt;/a&gt;</code></p>
+  </section>
+  <section class="panel">
+    <h2>Common types of hyperlinks</h2>
+    <div class="demo-grid">
+      <div class="demo"><h3>External link</h3><p>Goes to another website.</p><code>href="https://example.com"</code></div>
+      <div class="demo"><h3>Internal page link</h3><p>Goes to another page in this website.</p><code>href="contact.html"</code></div>
+      <div class="demo"><h3>Email link</h3><p>Opens the visitor's default email app.</p><code>href="mailto:hello@example.com"</code></div>
+      <div class="demo"><h3>Image link</h3><p>Makes an image clickable by placing it inside an anchor.</p><code>&lt;a&gt;&lt;img&gt;&lt;/a&gt;</code></div>
+    </div>
+  </section>
+  <section class="panel">
+    <h2>What does the title attribute do?</h2>
+    <p>Move your pointer over this example and pause for a moment:</p>
+    <p><a class="button gold" href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer" title="This is a tooltip created with the title attribute.">Hover over me</a></p>
+    <p>The <code>title</code> attribute provides advisory information. Many browsers display its value as a small tooltip when the pointer hovers over the element.</p>
+    <div class="tip"><strong>Remember:</strong> <code>href</code> tells the browser the destination. <code>title</code> gives extra information about the link.</div>
+  </section>
+  <section class="panel">
+    <h2>Try the next activity</h2>
+    <p>Visit Contact Us to test the four <code>target</code> attribute values: <code>_self</code>, <code>_blank</code>, <code>_parent</code>, and <code>_top</code>.</p>
+    <a class="button" href="contact.html">Explore target attributes →</a>
+  </section>
+</main>
+<footer>Hyperlinks Learning Hub · About Us</footer>
+</body>
+</html>

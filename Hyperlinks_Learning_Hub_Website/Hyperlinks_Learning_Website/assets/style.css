@@ -1,0 +1,20 @@
+
+:root{--navy:#092744;--blue:#164b78;--gold:#e7b64a;--cream:#fffaf0;--ink:#1d2935;--muted:#5b6875}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f6fa;color:var(--ink);line-height:1.6}
+header{background:linear-gradient(120deg,var(--navy),var(--blue));color:white;padding:24px 6vw 20px}
+.brand{display:flex;align-items:center;gap:14px}.brand img{width:62px;height:52px;object-fit:contain}
+.brand h1{font-size:clamp(1.4rem,3vw,2rem);margin:0}.brand p{margin:2px 0 0;color:#e6eef7}
+nav{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+nav a,.button{display:inline-block;text-decoration:none;border-radius:999px;padding:10px 17px;font-weight:700}
+nav a{color:white;border:1px solid #ffffff66}nav a:hover,nav a[aria-current=page]{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+main{max-width:1000px;margin:34px auto;padding:0 22px}.hero,.panel{background:white;border-radius:18px;padding:clamp(22px,4vw,38px);box-shadow:0 8px 28px #09274412;margin-bottom:22px}
+.hero{border-top:7px solid var(--gold)}h2{color:var(--navy);margin-top:0;font-size:clamp(1.5rem,3vw,2.1rem)}h3{color:var(--blue)}
+.lead{font-size:1.12rem;color:var(--muted)}.button{background:var(--navy);color:white;border:0;cursor:pointer;margin:5px 5px 5px 0;font-size:.98rem}.button:hover{background:#1c5d91}
+.button.gold{background:var(--gold);color:var(--navy)}.button.outline{background:white;color:var(--navy);border:2px solid var(--navy)}
+code{background:#edf2f7;color:#9a3d16;padding:3px 6px;border-radius:5px;overflow-wrap:anywhere}
+.demo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}.demo{border:1px solid #dce4ec;border-radius:14px;padding:16px;background:#fbfdff}
+.eagle-link{display:inline-flex;align-items:center;gap:18px;padding:14px;border:2px solid #e6d5a6;border-radius:16px;text-decoration:none;color:var(--navy);background:#fffaf0}.eagle-link img{width:170px;max-width:40%;height:auto}
+.tip{background:#fff5d9;border-left:5px solid var(--gold);padding:14px 17px;border-radius:8px}.small{font-size:.92rem;color:var(--muted)}
+footer{text-align:center;color:#637181;padding:22px;font-size:.9rem}
+ul{padding-left:22px}li{margin:7px 0}
+@media(max-width:520px){.eagle-link{align-items:flex-start;flex-direction:column}.eagle-link img{max-width:100%;width:150px}}
